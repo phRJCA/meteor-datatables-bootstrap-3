@@ -22,10 +22,11 @@ Package.on_use(function (api) {
 });
 
 Package.on_test( function(api) {
-    api.use('loftsteinn:datatables-bootstrap3');
+    api.use([
+        'loftsteinn:datatables-bootstrap3',
+        'test-helpers',
+        'tinytest'
+    ], ['client']);
 
-    api.use('test-helpers');
-    api.use('tinytest');
-
-    api.add_files("tests/test.js");
+    api.add_files("tests/test.js", ['client']);
 });

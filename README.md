@@ -40,3 +40,6 @@ mrt test-packages datatables-bootstrap3
     $('.datatable').dataTable({"sPaginationType": "bs_full"});
     
 You can learn more about the [DataTables API here](http://datatables.net/index).
+
+##CI Status
+[ ![Codeship Status for oskarszoon/meteor-datatables-bootstrap3](https://www.codeship.io/projects/11b0a4e0-1c33-0132-166d-3629abeda273/status)](https://www.codeship.io/projects/35147)
