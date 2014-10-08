@@ -2,8 +2,10 @@
 This is a smart package built for use with Meteor and the Twitter Bootstrap 3 library, using the [example defined here](https://github.com/Jowin/Datatables-Bootstrap3) as a basis.
 
 ##How to install
-1. `npm install -g meteorite` (if not already installed)
-2. `mrt add datatables-bootstrap3`
+`meteor add j4507:datatables-bootstrap-3`
+
+##Includes
+This package includes mizzao:bootstrap-3
 
 ##How to run tests
 mrt test-packages datatables-bootstrap3
