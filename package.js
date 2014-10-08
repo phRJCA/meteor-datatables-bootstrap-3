@@ -1,7 +1,7 @@
 Package.describe({
     summary: "DataTable - jQuery plugin for sortable, pagable data",
     name: "j4507:datatables-bootstrap-3",
-    version: "0.2.1",
+    version: "0.2.2",
     git: "https://github.com/c316/meteor-datatables-bootstrap-3"
 });
 
