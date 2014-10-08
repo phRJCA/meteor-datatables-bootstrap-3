@@ -1,10 +1,6 @@
 {
   "dependencies": [
     [
-      "mizzao:bootstrap-3",
-      "3.2.0"
-    ],
-    [
       "jquery",
       "1.0.0"
     ],
@@ -13,11 +9,15 @@
       "1.0.2"
     ],
     [
+      "mizzao:bootstrap-3",
+      "3.2.0"
+    ],
+    [
       "underscore",
       "1.0.0"
     ]
   ],
   "pluginDependencies": [],
-  "toolVersion": "meteor-tool@1.0.26",
+  "toolVersion": "meteor-tool@1.0.33",
   "format": "1.0"
 }
