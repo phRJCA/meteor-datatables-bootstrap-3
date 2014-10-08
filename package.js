@@ -1,13 +1,13 @@
 Package.describe({
     summary: "DataTable - jQuery plugin for sortable, pagable data",
-    name: "loftsteinn:datatables-bootstrap3",
-    version: "0.2.0",
-    git: "https://github.com/oskarszoon/meteor-datatables-bootstrap3"
+    name: "c316:datatables-bootstrap3",
+    version: "0.2.1",
+    git: "https://github.com/c316/meteor-datatables-bootstrap3"
 });
 
 Package.on_use(function (api) {
   api.use('jquery@1.0.0', 'client');
-  api.use('ian:bootstrap-3@1.0.2', 'client');
+  api.use('mizzao:bootstrap-3@3.2.0', 'client');
   api.add_files([
     'lib/jquery.dataTables.js',
     'lib/datatables.js',
@@ -23,7 +23,7 @@ Package.on_use(function (api) {
 
 Package.on_test( function(api) {
     api.use([
-        'loftsteinn:datatables-bootstrap3',
+        'c316:datatables-bootstrap3',
         'test-helpers',
         'tinytest'
     ], ['client']);
