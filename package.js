@@ -1,8 +1,8 @@
 Package.describe({
     summary: "DataTable - jQuery plugin for sortable, pagable data",
-    name: "c316:datatables-bootstrap3",
+    name: "c316:datatables-bootstrap-3",
     version: "0.2.1",
-    git: "https://github.com/c316/meteor-datatables-bootstrap3"
+    git: "https://github.com/c316/meteor-datatables-bootstrap-3"
 });
 
 Package.on_use(function (api) {
@@ -23,7 +23,7 @@ Package.on_use(function (api) {
 
 Package.on_test( function(api) {
     api.use([
-        'c316:datatables-bootstrap3',
+        'c316:datatables-bootstrap-3',
         'test-helpers',
         'tinytest'
     ], ['client']);
