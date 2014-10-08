@@ -1,8 +1,8 @@
 {
   "dependencies": [
     [
-      "ian:bootstrap-3",
-      "1.0.2"
+      "mizzao:bootstrap-3",
+      "3.2.0"
     ],
     [
       "jquery",
