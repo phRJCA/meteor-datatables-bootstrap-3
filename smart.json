@@ -3,7 +3,7 @@
   "description": "DataTables with bindings for Twitter Bootstrap 3",
   "homepage": "https://github.com/c316/meteor-datatables-bootstrap-3",
   "author": "Joshua Bechard josh@trashmountain.com",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "git": "https://github.com/c316/meteor-datatables-bootstrap-3.git",
   "packages": {
       "bootstrap-3": {}
