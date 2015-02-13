@@ -7,7 +7,7 @@ Package.describe({
 
 Package.on_use(function (api) {
   api.use('jquery@1.0.0', 'client');
-  api.use('twbs:bootstrap', 'client');
+  api.use('twbs:bootstrap@3.3.2', 'client');
   api.add_files([
     'lib/jquery.dataTables.js',
     'lib/datatables.js',
