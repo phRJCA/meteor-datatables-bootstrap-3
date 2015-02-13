@@ -5,7 +5,7 @@ This is a smart package built for use with Meteor and the Twitter Bootstrap 3 li
 `meteor add j4507:datatables-bootstrap-3`
 
 ##Includes
-This package includes ```mizzao:bootstrap-3``` for Bootstrap-3
+This package includes the official bootstrap package ```twbs:bootstrap```
 
 ##How to run tests
 mrt test-packages datatables-bootstrap3
