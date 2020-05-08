@@ -2,7 +2,7 @@
 This is a smart package built for use with Meteor and the Twitter Bootstrap 3 library, using the [example defined here](https://github.com/Jowin/Datatables-Bootstrap3) as a basis.
 
 ##How to install
-`meteor add j4507:datatables-bootstrap-3`
+`meteor add rjca:datatables-bootstrap-3`
 
 ##Includes
 This package includes the official bootstrap package ```twbs:bootstrap```
